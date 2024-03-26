@@ -36,8 +36,7 @@ possible_uppercase:
 
     add byte [buffer], 100000b  
 
-    cmp byte [buffer], '`'
-    jg end_program
+    jmp end_program
 
     
 
